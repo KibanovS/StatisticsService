@@ -18,7 +18,7 @@ public class StatisticsServiceTest {
         Assertions.assertEquals(expected, actual);
     }
     @org.testng.annotations.Test
-    void findMahx() {
+    void findMaxInTheEnd() {
         StatisticsService service = new StatisticsService();
 
         long[] incomesInBillions = {1, 2, 3, 4, 5, 6, 7, 8, 9, 101, 11};
